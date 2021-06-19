@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url(./utilities.css);
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    
+    /* transition: all .2s linear; */
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+
+body{
+    background:rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+
+.project-1{
+    width: 85%;
+    
+    border: 1px solid lightgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+    -webkit-box-shadow:0px 0px 208px 0px rgba(45,255,196,0.51);
+    -moz-box-shadow: 0px 0px 208px 0px rgba(45,255,196,0.51);
+    box-shadow: 0px 0px 208px 0px rgba(45, 255, 195, 0.432);
+    margin-bottom: 2.5rem;
+}
+
+
+
+.skills .box-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pro-title h2{
+    font-size: 2rem;
+    color: #fff;
+}
+.pro-arrow a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+section{
+    min-height: 90vh;
+    padding:1rem;
+}
+
+
+
+.btn i{
+    padding:0 .5rem;
+    font-size: 1rem;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#fff;
+    
+   
+    
+}
+.sub-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#fff;
+    font-weight: 400;
+    margin-bottom: 2rem;
+     
+}
+.nav-socials{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.nav-socials a{
+
+    color:rgb(173, 173, 173);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    background: #0D0D0D;
+    padding:  1.5rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+
+    
+
+}
+
+
+header{
+    position: fixed;
+    left:0;
+    
+   
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    background:#222222;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    flex-flow: column;
+    text-align: center;
+    border-right: 3px solid;
+    border-right: 1px solid lightgreen;
+    border-image-slice: 1;
+}
+
+header .user img{
+    height:15rem;
+    width:15rem;
+    object-fit: cover;
+    
+    
+    
+}
+
+header .user .name{
+    font-size: 2.5rem;
+    color:#fff;
+    font-weight: 500;
+}
+
+header .user .post{
+    font-size: 1.2rem;
+    color:rgb(153, 153, 153);
+}
+
+header .navbar{
+    width:100%;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding:0.4rem 5rem;
+}
+
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#0D0D0D;
+    color:rgb(173, 173, 173);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 5rem;
+}
+header .navbar ul li a:last-child{
+    margin-bottom: 0;
+}
+
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+.home{
+   
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding:0 15rem;
+}
+
+.home h3{
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.home h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+
+
+.home p{
+    font-size:1.5rem;
+    color:#eee;
+    padding: 1rem 0;
+    font-weight: 400;
+
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding:0 5rem;
+}
+.about p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about a{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 5rem;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 5rem;
+}
+
+
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+
+.box{
+    margin-right: 3rem;
+    outline: 1px solid lightgreen;
+    color: #fff;
+    background: rgb(0,0,0);
+    padding: 1rem 2rem;
+    height: 150px;
+    width: 150px;
+    -webkit-box-shadow:0px 0px 208px 0px rgba(45,255,196,0.51);
+-moz-box-shadow: 0px 0px 208px 0px rgba(45,255,196,0.51);
+box-shadow: 0px 0px 208px 0px rgba(45, 255, 195, 0.432);
+
+
+}
+.box h2{
+    margin-top: 2.5rem;
+}
+.box p{
+   text-align: right;
+}
+.back{
+    width: 100%;
+    height: 6px;
+    background: rosybrown;
+}
+.upper{
+    background: royalblue;
+    width: 90%;
+    height: 100%;
+}
+.css .upper{
+    width: 70%;
+}
+.js .upper{
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+.mails{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+} 
+
+.contact{
+    margin-top: 5rem;
+}
+.mails a{
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 2rem;
+    background:rgb(24, 24, 24); 
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+    .skills .box-container{
+       flex-direction: column;
+      
+    }
+  
+    .box{
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+    }
+
+   header{
+       left:120%;
+       transition: 0.2s ease-in-out;
+      
+   }
+ 
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+   
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 60%;
+    }
+
+  
+    
+ }
+ .contact{
+     min-height: 60vh;
+ }
+ .top{
+    margin-bottom: 5rem;
+}
+
+
+
+@media (max-width:400px){
+
+    
+    header{
+        width: 100vw;
+        
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    
+ 
+    .education .box-container .box{
+        width:100%;
+    }
+
+    .portfolio .box-container .box{
+        width:100%;
+    }
+
+   
+    section{
+        min-height: 75vh;
+        padding:1rem;
+    }
+    header .navbar ul{
+        
+        padding:1rem 12rem;
+    }
+    .contact{
+        min-height: 50vh;
+    }
+    .education{
+        min-height: 60vh;
+    }
+    .top{
+        margin-bottom: 5rem;
+    }
+ 
+ }
